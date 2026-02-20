@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+
+/* sélecteurs de classe */
+.impair,.trois{
+    background-color: rgb(252, 135, 155);
+    font-family: Verdana, DejaVu sans, sans-serif;
+}
+
+.trois{
+    font-size:24px;
+}
+
+/* sélecteur d'ids */
+#div2{
+    color: blue;
+    font-size: 36px;
+}
+
+#div4{
+    background-color: rgb(149, 199, 149);
+    font: 24px bold;
+}
+
