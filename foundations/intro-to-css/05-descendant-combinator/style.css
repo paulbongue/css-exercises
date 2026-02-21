@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+
+div p {
+    /* fond de l'élément */
+    background-color: yellow;
+
+    /* couleur du texte */
+    color: red;
+
+    /* taille de police */
+    font-size: 20px;
+
+    /* centrage du texte */
+    text-align: center;
+
+}
