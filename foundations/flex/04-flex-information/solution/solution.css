@@ -44,3 +44,63 @@ body {
 .info {
   max-width: 200px;
 }
+
+
+
+
+
+
+
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  justify-content: center;
+  display: grid;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  /* width: 100%; */
+  /* display:block; */
+}
+
+/* do not edit this footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.images {
+  display: flex;
+  /* margin: 70px; */
+  gap: 52px;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.love, .nice, .yay, .about {
+  flex: 1;
+  width: 200px;
+  box-sizing: content-box;
+  text-align: center;
+  /* margin: 0 30px 30px 30px; */
+ /* display: inline-block; */
+}
